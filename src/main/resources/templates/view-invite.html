@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="cache-control" content="no-cache" />
+	<title>Rahul ❤️ Khushboo - 16.11.2024</title>
+	<meta name="description" content="We are getting hitched - The dates are 15th & 16th of November '24 and we would like you to be a part of it." />
+	<meta name="keywords" content="rahul,khushboo,wedding,website,rsvp" />
+	<meta name="author" content="Rahul & Khushboo" />
+
+  		<!-- Facebook and Twitter integration -->
+	<meta property="og:image" content="images/og.jpg"/>
+	<meta property="og:site_name" content="Rahul ❤️ Khushboo - 16.11.2024">
+    <meta property="og:title" content="Rahul ❤️ Khushboo - 16.11.2024">
+    <meta property="og:description" content="We are getting hitched - The dates are 15th & 16th of November '24 and we would like you to be a part of it.">
+	<!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <!-- Website to visit when clicked in fb or WhatsApp-->
+    <meta property="og:url" content="https://khushboowedsrahul.live">
+	<meta property="og:type" content="website"/>
+    <meta property="og:image:type" content="image/jpeg">
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sofia+Sans+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="/css/responsive-clock.css">
+	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="/css/icomoon.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
+	<link rel="stylesheet" href="/css/magnific-popup.css">
+	<link rel="stylesheet" href="/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/modernizr-2.6.2.min.js"></script>
+	<script src="/js/scripts-rahul.js"></script>
+
+</head>
+<body>
+	<div id="page">
+		<div id="fh5co-gallery" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>Invitation</h2>
+					</div>
+				</div>
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<ul id="fh5co-gallery-list">
+							
+							<li th:each="photo : ${photoList}" class="one-third animate-box" data-animate-effect="fadeIn" 
+								th:style="'background-image: url(' + ${photo} +');'"> 
+								<a class="open-image" th:href="${photo}">
+									<div class="case-studies-summary">
+									</div>
+								</a>
+							</li>
+		
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="myModal" class="modal">
+		    <span class="close">&times;</span>
+		    <img class="modal-content" id="img01">
+		</div>
+		
+	</div>
+	
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/clock.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/js/owl.carousel.min.js"></script>
+	<script src="/js/jquery.countTo.js"></script>
+	<script src='https://momentjs.com/downloads/moment.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
+	<script src="/js/jquery.stellar.min.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="/js/magnific-popup-options.js"></script>
+	<script src="/js/simplyCountdown.js"></script>
+	<script src="/js/main.js"></script>
+	<script src="/js/scripts-rahul.js"></script>
+	
+</body>
+</html>
